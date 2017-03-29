@@ -1,7 +1,7 @@
 {
   "name": "esri-glimmer-example",
   "version": "0.0.0",
-  "description": "A brand new Glimmer app.",
+  "description": "An example of how to use the ArcGIS API for JavaScript in a glimmerjs application.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -23,5 +23,9 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "private": true
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/tomwayson/esri-glimmer-example.git",
+  "author": "Tom Wayson <tom@tomwayson.com>",
+  "license": "MIT"
 }

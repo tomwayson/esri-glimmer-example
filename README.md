@@ -1,9 +1,14 @@
 # esri-glimmer-example
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+An example of how to use the [ArcGIS API for JavaScript] in a [glimmerjs] application.
 
-## Prerequisites
+This is a work in progress hacked up w/ [@odoe](https://github.com/odoe/) at EmberConf 2017.
+
+## Development Instructions
+
+The rest of this README outlines the details of collaborating on this Glimmer application.
+
+### Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -12,13 +17,13 @@ You will need the following things properly installed on your computer.
 * [Yarn](https://yarnpkg.com/en/)
 * [Ember CLI](https://ember-cli.com/)
 
-## Installation
+### Installation
 
 * `git clone <repository-url>` this repository
 * `cd esri-glimmer-example`
 * `yarn`
 
-## Running / Development
+### Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -30,5 +35,6 @@ You will need the following things properly installed on your computer.
 
 ## Further Reading / Useful Links
 
-* [glimmerjs](http://github.com/tildeio/glimmer/)
+* [ArcGIS API for JavaScript]:https://js.arcgis.com
+* [glimmerjs]:https://glimmerjs.com/
 * [ember-cli](https://ember-cli.com/)
