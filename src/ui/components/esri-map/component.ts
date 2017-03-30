@@ -1,9 +1,5 @@
 import Component from '@glimmer/component';
-// TODO: once we figure out how to install esri-loader as an npm package
-// replace the following:
-import {isLoaded, bootstrap, dojoRequire} from './esri-loader';
-// with:
-// import {isLoaded, bootstrap, dojoRequire} from 'esri-loader';
+import { isLoaded, bootstrap, dojoRequire } from 'esri-loader';
 
 export default class EsriMap extends Component {
     didInsertElement() {
@@ -17,9 +13,6 @@ export default class EsriMap extends Component {
                     // once it's loaded, create the map
                     this.createMap();
                 }
-            }, {
-                // use a specific version instead of latest 4.x
-                url: 'https://js.arcgis.com/4.3/'
             });
         } else {
             // ArcGIS API is already loaded, just create the map
