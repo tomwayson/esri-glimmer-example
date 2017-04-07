@@ -27,5 +27,8 @@
   "main": "index.js",
   "repository": "https://github.com/tomwayson/esri-glimmer-example.git",
   "author": "Tom Wayson <tom@tomwayson.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "esri-loader": "^0.3.0"
+  }
 }
