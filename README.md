@@ -4,7 +4,7 @@ An example of how to use the [ArcGIS API for JavaScript] in a [glimmerjs] applic
 
 ![Screenshot](esri-glimmer-example-screenshot.jpg)
 
-This uses the pattern (and a copy of the code) from [esri-loader](https://github.com/tomwayson/esri-loader) to lazy-load the ArcGIS API for JavaScript in a glimmer app. 
+This uses the pattern (and a copy of the code) from [esri-loader](https://github.com/Esri/esri-loader) to lazy-load the ArcGIS API for JavaScript in a glimmer app. 
 
 This is a work in progress hacked up w/ [@odoe](https://github.com/odoe/) at EmberConf 2017.
 
